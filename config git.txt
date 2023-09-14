@@ -1,0 +1,43 @@
+$ git config
+$ Ctrl + l // para limpar a tela
+
+$ git config --global user.name "cirlei"
+$ git config --global user.name //Consultar o nome inserido
+
+$ git config --global user.email shirley_1979 ....
+$ git config --global user.email // //Consultar o email inserido
+
+$ git config init.defaultBranch // Mostra a Branch padrão
+$ git config --global init.defaultBranch main // Mudar a Branch
+
+$ git clone https:// ....
+
+// assinar com token, salvar o token no diretorio 
+// documento da credencial token https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
+
+$ git config credential.helper store
+$ git config --global credential.helper store
+$ touch README.md // criar readme vazio
+$ git status
+$ git add .
+$ git commit -, "primeiro"
+$ git log
+$
+
+pagina para criar um readme - https://readme.so/pt
+tecla de atalho para abrir emojis tecla windows + .
+
+$ rm -rf .git // para excluir a pasta que inicializou o envio commit
+$ git restore README.md // descarta as alterações que foi realizado
+$ git commit --amend -m "texto modificado" //alterar o nome do ultimo commit 
+$ git log
+$ git commit --amend // der enter, podendo assim alterar o nome do commit logo acima
+
+$ git reset --soft ... //insegir o codigo do ultimo commit
+$ git reset --mixed ...
+$ git reset --hard...
+$ git reflog
+
+$ git fetch origin main // baixar arquivos do hit sem alterar o arquivo local
+$ git merge origin/main para trazer o arquivo para o local do comando git fetch
+
