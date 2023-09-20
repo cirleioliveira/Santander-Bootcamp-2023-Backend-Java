@@ -4,15 +4,15 @@ import Lanchonete.Atendimento.Atendente;
 
 public class Cozinheiro {
     //pode ser default
-    void adcionarLancheNoBalcao(){
+    public void adcionarLancheNoBalcao(){
         System.out.println("Adicionando lanche natural hamburger no balcao");;
     }
     //pode ser default
-    void adicionarSucoNoBalcao(){
+    public void adicionarSucoNoBalcao(){
         System.out.println("Adicionando suco no balcao");
     }
     //pode ser default
-    void adcionarComboNoBalcao(){
+     public void adcionarComboNoBalcao(){
         adicionarSucoNoBalcao();
         adicionarSucoNoBalcao();
     }
