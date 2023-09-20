@@ -5,9 +5,11 @@ public class BancoApp {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
      
-  
+    System.out.println("Valor inicial");
     double valorInicial = scanner.nextDouble();
+    System.out.println("taxa de juro");
     double taxaJuros = scanner.nextDouble();
+    System.out.println("quantidade de meses");
     int periodo = scanner.nextInt();
      
     double valorFinal = valorInicial;
