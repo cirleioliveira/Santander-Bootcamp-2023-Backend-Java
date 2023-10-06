@@ -17,5 +17,6 @@ public class ComputadorDoPedrinho {
         Telegran tlg = new Telegran();        
         tlg.enviarMensagem();
         tlg.receberMensagem();
-    }
+
+     }
 }
