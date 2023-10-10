@@ -1,6 +1,8 @@
+package Apps;
 public class FacebookMenssenger extends ServicoMensagemInstantane {
     public void enviarMensagem(){
-          System.out.println("enviando mensagem pelo Facebook Menssenger");
+        validarConectadoInternet();
+        System.out.println("enviando mensagem pelo Facebook Menssenger");
         
     }
     public void receberMensagem(){

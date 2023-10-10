@@ -1,6 +1,11 @@
 import javax.sound.midi.Soundbank;
 //polimorfismo
 
+import Apps.FacebookMenssenger;
+import Apps.MSNMenssenger;
+import Apps.ServicoMensagemInstantane;
+import Apps.Telegran;
+
 public class ComputadorPedrinho {
     public static void main(String[] args) {
         ServicoMensagemInstantane smi = null;

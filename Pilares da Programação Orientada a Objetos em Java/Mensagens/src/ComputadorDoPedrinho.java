@@ -1,5 +1,9 @@
 import javax.sound.midi.Soundbank;
 
+import Apps.FacebookMenssenger;
+import Apps.MSNMenssenger;
+import Apps.Telegran;
+
 public class ComputadorDoPedrinho {
     public static void main(String[] args) {
         // Abrindo MSN  Menssenger 
