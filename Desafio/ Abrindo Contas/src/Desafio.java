@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
-public class Desafio {
+public class Desafio { 
 
   public static void main(String[] args) {
     // Lendo os dados de Entrada:
